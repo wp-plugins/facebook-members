@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: Facebook Members
-Plugin URI: http://icrunched.co/facebook-members/
+Plugin URI: http://icrunch.co/facebook-members/
 Description: THE Simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functionality to WordPress. 
 Version: 4.6.1
 Author: icrunched
-Author URI: http://iCrunched.co
+Author URI: http://iCrunch.co
 */
 
 /*
-    Copyright (C) 2012 iCrunched.co
+    Copyright (C) 2012 iCrunch.co
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -53,7 +53,7 @@ add_option('as_facebook_mem_reco_appid', '');
 add_option('as_facebook_mem_reco_readtime', '5');
 add_option('as_facebook_mem_reco_verb', 'like');
 add_option('as_facebook_mem_reco_side', 'left');
-add_option('as_facebook_mem_reco_domain', 'http://icrunched.co');
+add_option('as_facebook_mem_reco_domain', 'http://iCrunch.co');
 
 function filter_as_facebook_mem_likebox($content)
 {
@@ -71,7 +71,7 @@ function filter_as_facebook_mem_likebox($content)
 
 	if (!($fm_appid == ""))
 	{	
-		$content .= "<!-- Facebook Members Plugin by iCrunched: http://icrunched.co/facebook-members/ -->
+		$content .= "<!-- Facebook Members Plugin by iCrunch: http://iCrunch.co/facebook-members/ -->
 		<div class=\"fb-recommendations-bar\" data-href=\"".get_permalink()."\" data-read-time=\"".$fm_readtime."\" data-side=\"".$options['side']."\" data-action=\"".$fm_verb."\"></div>";
 	}
     return $content;
@@ -129,7 +129,7 @@ function as_facebook_mem_likebox()
 	}
 	else
 	{
-		$sponserlink_profile = '<div align="left">- <a href="http://icrunched.co/facebook-members/" title="Facebook Members WordPress Plugin" target="_blank"> <font size="1">' . 'Facebook Members WordPress Plugin' . '</font></a></div>';
+		$sponserlink_profile = '<div align="left">- <a href="http://iCrunch.co/facebook-members/" title="Facebook Members WordPress Plugin" target="_blank"> <font size="1">' . 'Facebook Members WordPress Plugin' . '</font></a></div>';
 	}
 
 
@@ -221,10 +221,10 @@ function as_facebook_mem_options_page() {
 	<br>
 	<h3>Follow us on Twitter & Facebook to get latest update:</h3>
 	
-	<a href="https://twitter.com/iCrunched" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @iCrunched</a>
+	<a href="https://twitter.com/iCrunchCo" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @iCrunchCo</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FiCrunchedco%2F117867008360385&amp;width=292&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:62px;" allowTransparency="true"></iframe>
+<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FiCrunch&amp;width=292&amp;height=62&amp;show_faces=false&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false&amp;appId=519929141369894" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:62px;" allowTransparency="true"></iframe>
 
 	</div>
 		<div id="poststuff" class="metabox-holder has-right-sidebar">
@@ -241,7 +241,7 @@ function as_facebook_mem_options_page() {
 
 				<tr valign="top" class="alternate">
           			<th scope="row" style="width:29%;"><label>Your Facebook AppID</label></th>
-                      <td><textarea name="as_facebook_mem_reco_appid" cols="18" rows="1"><?php echo get_option('as_facebook_mem_reco_appid'); ?></textarea> <a href="http://icrunched.co/step-by-step-direction-to-get-facebook-appid-for-facebook-members-plugin/" target="_blank"><?=$help_icon?>Step by step direction</a>
+                      <td><textarea name="as_facebook_mem_reco_appid" cols="18" rows="1"><?php echo get_option('as_facebook_mem_reco_appid'); ?></textarea> <a href="http://iCrunch.co/step-by-step-direction-to-get-facebook-appid-for-facebook-members-plugin/" target="_blank"><?=$help_icon?>Step by step direction</a>
                       </td>
 				</tr>
 				<tr valign="top">
@@ -261,7 +261,7 @@ function as_facebook_mem_options_page() {
 				</tr> 
 					<tr valign="top" class="alternate">
 						<th scope="row"><label>Site Domain?</label></th>
-						 <td><textarea name="as_facebook_mem_reco_domain" cols="18" rows="1"><?php echo get_option('as_facebook_mem_reco_domain'); ?></textarea> i.e. http://icrunched.co
+						 <td><textarea name="as_facebook_mem_reco_domain" cols="18" rows="1"><?php echo get_option('as_facebook_mem_reco_domain'); ?></textarea> i.e. http://icrunch.co
 						 </td> 
 					</tr>
 
@@ -269,7 +269,7 @@ function as_facebook_mem_options_page() {
 			</div>
 			</div>
 			
-					<a href="http://icrunched.co/facebook-members/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunched" target="_blank">Twitter</a> | <a href="http://www.facebook.com/iCrunched" target="_blank">Facebook</a>
+					<a href="http://iCrunch.co/facebook-members/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunch" target="_blank">Twitter</a> | <a href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>
 
    		 <div class="submit">
 	        <input type="submit" name="info_update" class="button-primary" value="<?php _e('Update options'); ?> &raquo;" />
@@ -349,7 +349,7 @@ function as_facebook_mem_options_page() {
 			</div>
 			</div>
 			
-					<a href="http://icrunched.co/facebook-members/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunched" target="_blank">Twitter</a> | <a href="http://www.facebook.com/iCrunched" target="_blank">Facebook</a>
+					<a href="http://iCrunch.co/facebook-members/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunchCo" target="_blank">Twitter</a> | <a href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>
 
    		 <div class="submit">
 	        <input type="submit" name="info_update" class="button-primary" value="<?php _e('Update options'); ?> &raquo;" />
@@ -423,7 +423,7 @@ function as_facebook_mem_options_page() {
 					</div>
 		</div>
 		
-							<a href="http://icrunched.co/facebook-members/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunched" target="_blank">Twitter</a> | <a href="http://www.facebook.com/iCrunched" target="_blank">Facebook</a>
+							<a href="http://iCrunch.co/facebook-members/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunchCo" target="_blank">Twitter</a> | <a href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>
 
    		 <div class="submit">
 	        <input type="submit" name="info_update" class="button-primary" value="<?php _e('Update options'); ?> &raquo;" />
@@ -440,7 +440,7 @@ function as_facebook_mem_options_page() {
 				  <h3 class="hndle"><span>Facebook Members</span></h3>
 				  <div class="inside">
 	                <ul>
-	                <li><a href="http://icrunched.co/facebook-members/" title="All in One Webmaster" target="_blank">Plugin Homepage</a></li>
+	                <li><a href="http://iCrunch.co/facebook-members/" title="All in One Webmaster" target="_blank">Plugin Homepage</a></li>
 	                </ul>          
 					</div>
 				</div>
@@ -451,11 +451,11 @@ function as_facebook_mem_options_page() {
 				  <h3 class="hndle"><span>My Other Plugins</span></h3>
 				  <div class="inside">
 					<ul>
-					<li>1) <a href="http://icrunched.co/twitter-goodies/" title="Twitter Goodies" target="_blank">Twitter Goodies</a></li>
-					<li>2) <a href="http://icrunched.co/wp-google-buzz/" title="All in One Webmaster" target="_blank">WP Google Buzz</a></li>
-					<li>3) <a href="http://icrunched.co/wp-archive-sitemap-generator/" title="WP Archive-Sitemap Generator" target="_blank">WP Archive-Sitemap Generator</a></li>
-					<li>4) <a href="http://icrunched.co/foursquare-integration/" title="FourSquare Integration" target="_blank">FourSquare Integration</a></li>
-					<li>5) <a href="http://icrunched.co/all-in-one-webmaster/" title="Facebook Members" target="_blank">All in One Webmaster</a></li>
+					<li>1) <a href="http://iCrunch.co/twitter-goodies/" title="Twitter Goodies" target="_blank">Twitter Goodies</a></li>
+					<li>2) <a href="http://iCrunch.co/wp-google-buzz/" title="All in One Webmaster" target="_blank">WP Google Buzz</a></li>
+					<li>3) <a href="http://iCrunch.co/wp-archive-sitemap-generator/" title="WP Archive-Sitemap Generator" target="_blank">WP Archive-Sitemap Generator</a></li>
+					<li>4) <a href="http://iCrunch.co/foursquare-integration/" title="FourSquare Integration" target="_blank">FourSquare Integration</a></li>
+					<li>5) <a href="http://iCrunch.co/all-in-one-webmaster/" title="Facebook Members" target="_blank">All in One Webmaster</a></li>
 					</ul>
 				  </div>
 				</div>
@@ -498,7 +498,7 @@ function show_as_facebook_mem_likebox_widget($args)
 	}
 	else
 	{
-		$sponserlink_profile = '<div align="left">- <a href="http://icrunched.co/facebook-members/" title="Facebook Members WordPress Plugin" target="_blank"> <font size="1">' . 'Facebook Members WordPress Plugin' . '</font></a></div>';
+		$sponserlink_profile = '<div align="left">- <a href="http://iCrunch.co/facebook-members/" title="Facebook Members WordPress Plugin" target="_blank"> <font size="1">' . 'Facebook Members WordPress Plugin' . '</font></a></div>';
 	}
 
  	$T2 = '<div id="likebox-frame"><iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F'.$fm_widget_page_name.'&amp;width='.$fm_widget_width.'&amp;height='.$fm_widget_height.'&amp;colorscheme=light&amp;show_faces='.$fm_widget_faces.'&amp;border_color&amp;stream='.$fm_widget_stream.'&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:'.$fm_widget_width.'px; height:'.$fm_widget_height.'px; margin:-1px;" allowTransparency="true"></iframe></div>';
