@@ -1,5 +1,5 @@
 === Facebook Members ===
-Contributors: icrunched
+Contributors: iCrunch
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
 Tags: Facebook, Facebook Members, Social Media, Like box, Facebook, Plugin, Facebook Plugin, Facebook Recommendation bar, Recommendation, iCrunch, iCrunch.co
 Requires at least: 3.2
