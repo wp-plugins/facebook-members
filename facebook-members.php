@@ -3,7 +3,7 @@
 Plugin Name: Facebook Members
 Plugin URI: http://icrunch.co/facebook-members/
 Description: THE Simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functionality to WordPress. 
-Version: 4.6.1
+Version: 4.7
 Author: icrunched
 Author URI: http://iCrunch.co
 */

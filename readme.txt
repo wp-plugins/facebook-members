@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: Facebook, Facebook Members, Social Media, Like box, Facebook, Plugin, Facebook Plugin, Facebook Recommendation bar, Recommendation, iCrunch, iCrunch.co
 Requires at least: 3.2
 Tested up to: 3.5.1
-Stable tag: 4.6.1
+Stable tag: 4.7
 
 THE Simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functionality to WordPress. 
 
@@ -78,6 +78,10 @@ Tags: facebook, FB members, facebook plugin, like box, likebox, facebook like bo
 8. Page/Post Sample Example
 
 == Changelog == 
+
+= 4.7 =
+* Minor bug fix
+* Plugin Homepage link updated
 
 = 4.6.1 =
 * AppId condition check added. If you are using other Recommendation Bar plugin and want to disable it, simply keep AppId field blank. 
