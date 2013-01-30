@@ -284,9 +284,6 @@ function widget_as_facebook_mem_likebox_init()
 
 function facebook_plugin_admin_init()
 {
-    wp_register_script('facebook-plugin-script', plugins_url('/js/jquery-1.9.0.js', __FILE__));
-    wp_enqueue_script('facebook-plugin-script');
-
     wp_register_script('facebook-plugin-script2', plugins_url('/js/jquery-ui.js', __FILE__));
     wp_enqueue_script('facebook-plugin-script2');
 
