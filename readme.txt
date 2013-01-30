@@ -1,15 +1,15 @@
 === Facebook Members ===
 Contributors: iCrunch
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
-Tags: Facebook, Facebook Members, Social Media, Like box, Facebook, Plugin, Facebook Plugin, Facebook Recommendation bar, Recommendation, iCrunch, iCrunch.co
+Tags: Facebook, Facebook Like Box, Facebook Widget, Facebook Members, Social Media, Like box, Facebook, Plugin, Facebook Plugin, Facebook Recommendation bar, Recommendation, iCrunch, iCrunch.co
 Requires at least: 3.2
 Tested up to: 3.5.1
-Stable tag: 4.7
+Stable tag: 5.0
 
-THE Simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functionality to WordPress. 
+THE Simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functionality to WordPress with lot more Options. 
 
 == Description ==
-Facebook Members is a WordPres Social Plugin that enables Facebook Page owners to attract and gain Likes from their own website. This is the simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functionality to WordPress.
+Facebook Members is a WordPres Social Plugin that enables Facebook Page owners to attract and gain Likes from their own website. This is the simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functionality to WordPress with many more Options like Background color, Border color.
 
 See how many users already like this page, and which of their friends like it too. Read recent posts from the page Like the page with one click, without needing to visit the page. Get more visitors and more traffic to your site by getting more Facebook Fans. The Recommendations Bar allows users to like content, get recommendations, and share what they’re reading with their friends.
 
@@ -68,16 +68,30 @@ Tags: facebook, FB members, facebook plugin, like box, likebox, facebook like bo
 * NOTE: I've created this plugin as of my personal interest only. 
 
 == Screenshots ==
-1. Sample1 - Clean (No Faces, No Stream)
-2. Facebook Recommendation Bar Plugin added
+1. Admin Panel: Widget/Sidebar Likebox Option
+2. Sample - Facebook Likebox Widget with No Border
 3. Sample2 - Background Color + Border Color
-4. Sample3 - No Border 
-5. Sample4 - Background Color + Border Color
-6. Admin Panel Options for Post/Page Widget
-7. Admin Panel Options for Sidebar Widget
-8. Page/Post Sample Example
+4. Admin Panel: Recommendatiaon Bar Setting
+5. Admin Panel: Page/Post Likebox Options
+6. Sample - Clean (No Faces, No Stream)
+7. Facebook Likebox with Show Stream Option
+8. Facebook Likebox on theme's Page/Post template
 
 == Changelog == 
+
+= 5.0 =
+* Major code upgrade.
+* Admin Panel Options now in Tabular Form.
+* Tab1: Recommendataion Bar Setting.
+* Tab2: Widget/Sidebar Likebox Options.
+* Tab3: Page/Post Likebox Options.
+* Fixed: Leave Facebook AppID field blank to disable Recommendation bar on your blog.
+* Admin Panel ToopTip added.
+* Fixed color code link.
+* Background Color and Border Color conflict fixed.
+* Better Performance.
+* Many more Bug fixes.
+* Make sure your settings are upto date after plugin update. 
 
 = 4.7 =
 * Minor bug fix
