@@ -80,7 +80,7 @@ Tags: facebook, FB members, facebook plugin, like box, likebox, facebook like bo
 == Changelog == 
 
 = 5.0.1 = 
-* Quick bug fix. Removed external loading of JQuery. Instread using WordPress's Own.
+* Quick admin JQuery conflict bug fix. Removed external loading of JQuery. Instead using WordPress's Own.
 
 = 5.0 =
 * Major code upgrade.
