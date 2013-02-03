@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: Facebook, Facebook Like Box, Facebook Widget, Facebook Members, Social Media, Like box, Facebook, Plugin, Facebook Plugin, Facebook Recommendation bar, Recommendation, iCrunch, iCrunch.co
 Requires at least: 3.2
 Tested up to: 3.5.1
-Stable tag: 5.0.1
+Stable tag: 5.0.2
 
 THE Simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functionality to WordPress with lot more Options. 
 
@@ -78,6 +78,13 @@ Tags: facebook, FB members, facebook plugin, like box, likebox, facebook like bo
 8. Facebook Likebox on theme's Page/Post template
 
 == Changelog == 
+
+= 5.0.2 =
+* Performance Improvement: Loading default WordPress JQuery instead of laoding from Plugin directory.
+* JQuery.js and JQuery-ui.js files removed from plugin folder (Unnecessary files).
+* Fixed some typos.
+* Bug fixes.
+* Quick Tips will now show on top instead of right side.
 
 = 5.0.1 = 
 * Quick admin JQuery conflict bug fix. Removed external loading of JQuery. Instead using WordPress's Own.
