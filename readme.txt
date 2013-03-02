@@ -1,7 +1,7 @@
 === Facebook Members ===
-Contributors: iCrunch
+Contributors: Crunchify
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
-Tags: Facebook, Facebook Like Box, Facebook Widget, Facebook Members, Social Media, Like box, Facebook, Plugin, Facebook Plugin, Facebook Recommendation bar, Recommendation, iCrunch, iCrunch.co
+Tags: Facebook, Facebook Like Box, Facebook Widget, Facebook Members, Social Media, Like box, Facebook, Plugin, Facebook Plugin, Facebook Recommendation bar, Recommendation, Crunchify, Crunchify.co
 Requires at least: 3.2
 Tested up to: 3.5.1
 Stable tag: 5.0.2
@@ -11,13 +11,13 @@ THE Simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functio
 == Description ==
 Facebook Members is a WordPres Social Plugin that enables Facebook Page owners to attract and gain Likes from their own website. This is the simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functionality to WordPress with many more Options like Background color, Border color.
 
-See how many users already like this page, and which of their friends like it too. Read recent posts from the page Like the page with one click, without needing to visit the page. Get more visitors and more traffic to your site by getting more Facebook Fans. The Recommendations Bar allows users to like content, get recommendations, and share what they’re reading with their friends.
+See how many users already like this page, and which of their friends like it too. Read recent posts from the page Like the page with one click, without needing to visit the page. Get more visitors and more traffic to your site by getting more Facebook Fans. The Recommendations Bar allows users to like content, get recommendations, and share what they are reading with their friends.
 
 Subscribe to Twitter and Facebook to get **latest update**:
 
-[Twitter](http://twitter.com/iCrunchCo) |
+[Twitter](http://twitter.com/CrunchifyCo) |
 [Facebook](http://www.facebook.com/iCrunch) |
-[Feedback](http://icrunch.co/facebook-members/) |
+[Feedback](http://Crunchify.co/facebook-members/) |
 [Screenshots - Admin Panel and Preview](http://wordpress.org/extend/plugins/facebook-members/screenshots/)
 
 **New**
@@ -55,7 +55,7 @@ Tags: facebook, FB members, facebook plugin, like box, likebox, facebook like bo
 * Go to `Appearance -> Widgets -> Facebook Members` and add it into Sidebar.
 
 = Where do I get latest updates on plugin? =
-* On <a href="http://twitter.com/iCrunchCo" target="_blank">Twitter</a> and <a href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>.
+* On <a href="http://twitter.com/CrunchifyCo" target="_blank">Twitter</a> and <a href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>.
 
 = What should I put in page name section? =
 * You need to provide whatever is after `facebook.com/`........ (URL).
@@ -64,7 +64,7 @@ Tags: facebook, FB members, facebook plugin, like box, likebox, facebook like bo
 * Simply keep AppId field blank. 
 
 = Got a Question? =
-* Please report your questions or bugs at Plugin <a href="http://icrunch.co/facebook-members/" target="_blank">Homepage</a>.
+* Please report your questions or bugs at Plugin <a href="http://Crunchify.co/facebook-members/" target="_blank">Homepage</a>.
 * NOTE: I've created this plugin as of my personal interest only. 
 
 == Screenshots ==
@@ -111,7 +111,7 @@ Tags: facebook, FB members, facebook plugin, like box, likebox, facebook like bo
 * AppId condition check added. If you are using other Recommendation Bar plugin and want to disable it, simply keep AppId field blank. 
 
 = 4.6 =
-* New Feature: Facebook Recommendation Bar Plugin. <a href="http://icrunch.co/facebook-recommendation-bar-plugin-added-to-facebook-members-wordpress-plugin/" target="_blank">More Info</a>.
+* New Feature: Facebook Recommendation Bar Plugin. <a href="http://Crunchify.co/facebook-recommendation-bar-plugin-added-to-facebook-members-wordpress-plugin/" target="_blank">More Info</a>.
 
 = 4.5.3 =
-* Please visit <a href="http://icrunch.co/facebook-members/" target="_blank">Plugin Homepage</a> for detailed changelog.
+* Please visit <a href="http://Crunchify.co/facebook-members/" target="_blank">Plugin Homepage</a> for detailed changelog.

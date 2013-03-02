@@ -1,6 +1,6 @@
 <?php
 /**
- * @author iCrunch.co
+ * @author Crunchify.co
  * Plugin: Facebook Members
  */
 ?>
@@ -98,7 +98,7 @@
     </div>
 </div>
 
-<a href="http://iCrunch.co/facebook-members/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunchCo"
+<a href="http://Crunchify.co/facebook-members/" target="_blank">Feedback</a> | <a href="http://twitter.com/CrunchifyCo"
                                                                                 target="_blank">Twitter</a> | <a
         href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>
 

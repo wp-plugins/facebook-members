@@ -1,6 +1,6 @@
 <?php
 /**
- * @author iCrunch.co
+ * @author Crunchify.co
  * Plugin: Facebook Members
  */
 ?>
@@ -11,7 +11,7 @@
 
         <div class="inside">
             <ul>
-                <li><a href="http://iCrunch.co/facebook-members/" title="All in One Webmaster" target="_blank">Plugin
+                <li><a href="http://Crunchify.co/facebook-members/" title="All in One Webmaster" target="_blank">Plugin
                     Homepage</a></li>
             </ul>
         </div>

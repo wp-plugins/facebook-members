@@ -1,6 +1,6 @@
 <?php
 /**
- * @author iCrunch.co
+ * @author Crunchify.co
  * Plugin: Facebook Members
  */
 ?>
@@ -17,7 +17,7 @@
                               rows="1"><?php echo get_option('as_facebook_mem_reco_appid'); ?></textarea>
                     &nbsp;<?=$fb_recco?>
                     <br>
-                    <a href="http://iCrunch.co/step-by-step-direction-to-get-facebook-appid-for-facebook-members-plugin/"
+                    <a href="http://Crunchify.co/step-by-step-direction-to-get-facebook-appid-for-facebook-members-plugin/"
                        target="_blank">Step by Step Direction</a>
                 </td>
             </tr>
@@ -46,7 +46,7 @@
                 <th scope="row"><label>Site Domain?</label></th>
                 <td><textarea id="styled" name="as_facebook_mem_reco_domain" cols="18"
                               rows="1"><?php echo get_option('as_facebook_mem_reco_domain'); ?></textarea> i.e.
-                    http://icrunch.co
+                    http://Crunchify.co
                 </td>
             </tr>
 
@@ -55,7 +55,7 @@
 </div>
 
 
-<a href="http://iCrunch.co/facebook-members/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunchCo"
+<a href="http://Crunchify.co/facebook-members/" target="_blank">Feedback</a> | <a href="http://twitter.com/CrunchifyCo"
                                                                                 target="_blank">Twitter</a> | <a
         href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>
 
