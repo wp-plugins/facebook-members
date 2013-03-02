@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: Facebook Members
-Plugin URI: http://icrunch.co/facebook-members/
+Plugin URI: http://Crunchify.co/facebook-members/
 Description: THE Simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functionality to WordPress with lot more Options.
 Version: 5.0.2
-Author: iCrunch
-Author URI: http://iCrunch.co
+Author: Crunchify
+Author URI: http://Crunchify.co
 */
 
 /*
-    Copyright (C) 2007- 2013 iCrunch.co
+    Copyright (C) 2007- 2013 Crunchify.co
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -53,7 +53,7 @@ add_option('as_facebook_mem_reco_appid', '');
 add_option('as_facebook_mem_reco_readtime', '5');
 add_option('as_facebook_mem_reco_verb', 'like');
 add_option('as_facebook_mem_reco_side', 'left');
-add_option('as_facebook_mem_reco_domain', 'http://iCrunch.co');
+add_option('as_facebook_mem_reco_domain', 'http://Crunchify.co');
 
 function filter_as_facebook_mem_likebox($content)
 {
@@ -69,7 +69,7 @@ function filter_as_facebook_mem_likebox($content)
     $fm_domain = get_option('as_facebook_mem_reco_domain');
 
     if (!($fm_appid == "")) {
-        $content .= "<!-- Facebook Members Plugin by iCrunch: http://iCrunch.co/facebook-members/ -->
+        $content .= "<!-- Facebook Members Plugin by Crunchify: http://Crunchify.co/facebook-members/ -->
 		<div class=\"fb-recommendations-bar\" data-href=\"" . get_permalink() . "\" data-read-time=\"" . $fm_readtime . "\" data-side=\"" . $options['side'] . "\" data-action=\"" . $fm_verb . "\"></div>";
     }
     return $content;
@@ -123,7 +123,7 @@ function as_facebook_mem_likebox()
     if ($show_sponser1 == 1) {
         $sponserlink_profile = "";
     } else {
-        $sponserlink_profile = '<div align="left">- <a href="http://iCrunch.co/facebook-members/" title="Facebook Members WordPress Plugin" target="_blank"> <font size="1">' . 'Facebook Members WordPress Plugin' . '</font></a></div>';
+        $sponserlink_profile = '<div align="left">- <a href="http://Crunchify.co/facebook-members/" title="Facebook Members WordPress Plugin" target="_blank"> <font size="1">' . 'Facebook Members WordPress Plugin' . '</font></a></div>';
     }
 
 
@@ -200,9 +200,9 @@ function as_facebook_mem_options_page()
 
     $fb_recco = '<img border="0" id="east" value="Tip" title="Leave Facebook ID field blank to disable Recommendatiaon Bar on your Blog." src="' . $icon_url . '/wp-content/plugins/facebook-members/images/tip.png" /> ';
 
-    $fb_pagename = '<img border="0" id="east1" value="Tip" title="Facebook Page Name is not the title of your page. <br>It’s the URL and you only include the portion that comes after <br>the http://www.facebook.com/ part of the URL." src="' . $icon_url . '/wp-content/plugins/facebook-members/images/tip.png" /> ';
+    $fb_pagename = '<img border="0" id="east1" value="Tip" title="Facebook Page Name is not the title of your page. <br>It is the URL and you only include the portion that comes after <br>the http://www.facebook.com/ part of the URL." src="' . $icon_url . '/wp-content/plugins/facebook-members/images/tip.png" /> ';
 
-    $fb_pagename1 = '<img border="0" id="east6" value="Tip" title="Facebook Page Name is not the title of your page. <br>It’s the URL and you only include the portion that comes after <br>the http://www.facebook.com/ part of the URL." src="' . $icon_url . '/wp-content/plugins/facebook-members/images/tip.png" /> ';
+    $fb_pagename1 = '<img border="0" id="east6" value="Tip" title="Facebook Page Name is not the title of your page. <br>It is the URL and you only include the portion that comes after <br>the http://www.facebook.com/ part of the URL." src="' . $icon_url . '/wp-content/plugins/facebook-members/images/tip.png" /> ';
 
     $fb_readtime = '<img border="0" id="east2" value="Tip" title="Number of seconds plugin will wait before expands. (1 to 30)." src="' . $icon_url . '/wp-content/plugins/facebook-members/images/tip.png" /> ';
 
@@ -210,7 +210,7 @@ function as_facebook_mem_options_page()
 
     $fb_showstream1 = '<img border="0" id="east7" value="Tip" title="If the Show Stream radio button is clicked to No (the default setting), <br>then thumbnails of your fans will be displayed. <br>If it is set to Yes, a stream of your recent postings on Facebook will be displayed." src="' . $icon_url . '/wp-content/plugins/facebook-members/images/tip.png" /> ';
 
-    $fb_showheader = '<img border="0" id="east4" value="Tip" title="If the Show Header radio button is set to Yes (the default), <br>a header with “Find Us on Facebook” will be displayed above the box." src="' . $icon_url . '/wp-content/plugins/facebook-members/images/tip.png" /> ';
+    $fb_showheader = '<img border="0" id="east4" value="Tip" title="If the Show Header radio button is set to Yes (the default), <br>a header with Find Us on Facebook will be displayed above the box." src="' . $icon_url . '/wp-content/plugins/facebook-members/images/tip.png" /> ';
 
     $fb_connection = '<img border="0" id="east5" value="Tip" title="The # of Connections setting must coordinate with the width and height settings. <br>If you left the dimensions to the standard settings then you will be able to easily <br>display the default of ten thumbnails, five each in two rows." src="' . $icon_url . '/wp-content/plugins/facebook-members/images/tip.png" /> ';
 
@@ -252,7 +252,7 @@ function show_as_facebook_mem_likebox_widget($args)
     if ($show_sponser1 == 1) {
         $sponserlink_profile = "";
     } else {
-        $sponserlink_profile = '<div align="left">- <a href="http://iCrunch.co/facebook-members/" title="Facebook Members WordPress Plugin" target="_blank"> <font size="1">' . 'Facebook Members WordPress Plugin' . '</font></a></div>';
+        $sponserlink_profile = '<div align="left">- <a href="http://Crunchify.co/facebook-members/" title="Facebook Members WordPress Plugin" target="_blank"> <font size="1">' . 'Facebook Members WordPress Plugin' . '</font></a></div>';
     }
 
     $T2 = '<div id="likebox-frame"><iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F' . $fm_widget_page_name . '&amp;width=' . $fm_widget_width . '&amp;height=' . $fm_widget_height . '&amp;colorscheme=light&amp;show_faces=' . $fm_widget_faces . '&amp;border_color&amp;stream=' . $fm_widget_stream . '&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:' . $fm_widget_width . 'px; height:' . $fm_widget_height . 'px; margin:-1px;" allowTransparency="true"></iframe></div>';
