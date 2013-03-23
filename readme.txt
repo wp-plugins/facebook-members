@@ -15,7 +15,7 @@ See how many users already like this page, and which of their friends like it to
 
 Subscribe to Twitter and Facebook to get **latest update**:
 
-[Twitter](http://twitter.com/CrunchifyCo) |
+[Twitter](http://twitter.com/Crunchify) |
 [Facebook](http://www.facebook.com/iCrunch) |
 [Feedback](http://Crunchify.co/facebook-members/) |
 [Screenshots - Admin Panel and Preview](http://wordpress.org/extend/plugins/facebook-members/screenshots/)
@@ -55,7 +55,7 @@ Tags: facebook, FB members, facebook plugin, like box, likebox, facebook like bo
 * Go to `Appearance -> Widgets -> Facebook Members` and add it into Sidebar.
 
 = Where do I get latest updates on plugin? =
-* On <a href="http://twitter.com/CrunchifyCo" target="_blank">Twitter</a> and <a href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>.
+* On <a href="http://twitter.com/Crunchify" target="_blank">Twitter</a> and <a href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>.
 
 = What should I put in page name section? =
 * You need to provide whatever is after `facebook.com/`........ (URL).
