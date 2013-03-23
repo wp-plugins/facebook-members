@@ -3,8 +3,8 @@ Contributors: Crunchify
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
 Tags: Facebook, Facebook Like Box, Facebook Widget, Facebook Members, Social Media, Like box, Facebook, Plugin, Facebook Plugin, Facebook Recommendation bar, Recommendation, Crunchify, Crunchify.co
 Requires at least: 3.2
-Tested up to: 3.5.1
-Stable tag: 5.0.2
+Tested up to: 3.6-alpha
+Stable tag: 5.0.3
 
 THE Simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functionality to WordPress with lot more Options. 
 
@@ -15,7 +15,7 @@ See how many users already like this page, and which of their friends like it to
 
 Subscribe to Twitter and Facebook to get **latest update**:
 
-[Twitter](http://twitter.com/CrunchifyCo) |
+[Twitter](http://twitter.com/Crunchify) |
 [Facebook](http://www.facebook.com/iCrunch) |
 [Feedback](http://Crunchify.co/facebook-members/) |
 [Screenshots - Admin Panel and Preview](http://wordpress.org/extend/plugins/facebook-members/screenshots/)
@@ -55,7 +55,7 @@ Tags: facebook, FB members, facebook plugin, like box, likebox, facebook like bo
 * Go to `Appearance -> Widgets -> Facebook Members` and add it into Sidebar.
 
 = Where do I get latest updates on plugin? =
-* On <a href="http://twitter.com/CrunchifyCo" target="_blank">Twitter</a> and <a href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>.
+* On <a href="http://twitter.com/Crunchify" target="_blank">Twitter</a> and <a href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>.
 
 = What should I put in page name section? =
 * You need to provide whatever is after `facebook.com/`........ (URL).
@@ -78,6 +78,12 @@ Tags: facebook, FB members, facebook plugin, like box, likebox, facebook like bo
 8. Facebook Likebox on theme's Page/Post template
 
 == Changelog == 
+
+= 5.0.3 =
+* Bug Fixes
+* Fixed ReadMe Typo
+* DomainName Change
+* Author's Twitter link fixed
 
 = 5.0.2 =
 * Performance Improvement: Loading default WordPress JQuery instead of laoding from Plugin directory.

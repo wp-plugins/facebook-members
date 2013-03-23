@@ -3,13 +3,13 @@
 Plugin Name: Facebook Members
 Plugin URI: http://Crunchify.co/facebook-members/
 Description: THE Simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functionality to WordPress with lot more Options.
-Version: 5.0.2
+Version: 5.0.3
 Author: Crunchify
 Author URI: http://Crunchify.co
 */
 
 /*
-    Copyright (C) 2007- 2013 Crunchify.co
+    Copyright (C) 2012- 2013 Crunchify.co
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

@@ -16,8 +16,8 @@
             <div align="left">
                 <br>
 
-                <a href="https://twitter.com/CrunchifyCo" class="twitter-follow-button" data-show-count="false"
-                   data-size="large">Follow @CrunchifyCo</a>
+                <a href="https://twitter.com/Crunchify" class="twitter-follow-button" data-show-count="false"
+                   data-size="large">Follow @Crunchify</a>
                 <script>!function (d, s, id) {
                     var js, fjs = d.getElementsByTagName(s)[0];
                     if (!d.getElementById(id)) {
