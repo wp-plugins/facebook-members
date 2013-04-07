@@ -1,6 +1,6 @@
 <?php
 /**
- * @author Crunchify.co
+ * @author Crunchify.com
  * Plugin: Facebook Members
  */
 ?>
@@ -11,7 +11,7 @@
             <input type="hidden" name="info_update" id="info_update" value="true"/>
 
 
-            <u><h2>Facebook Members Like Box Plugin by Crunchify.co</h2></u>
+            <u><h2>Facebook Members Like Box Plugin by Crunchify.com</h2></u>
 
             <div align="left">
                 <br>

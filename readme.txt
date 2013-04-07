@@ -1,7 +1,7 @@
 === Facebook Members ===
 Contributors: Crunchify
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8ZF6WATLYFELQ
-Tags: Facebook, Facebook Like Box, Facebook Widget, Facebook Members, Social Media, Like box, Facebook, Plugin, Facebook Plugin, Facebook Recommendation bar, Recommendation, Crunchify, Crunchify.co
+Tags: Facebook, Facebook Like Box, Facebook Widget, Facebook Members, Social Media, Like box, Facebook, Plugin, Facebook Plugin, Facebook Recommendation bar, Recommendation, Crunchify, Crunchify.com
 Requires at least: 3.2
 Tested up to: 3.6-alpha
 Stable tag: 5.0.3
@@ -17,7 +17,7 @@ Subscribe to Twitter and Facebook to get **latest update**:
 
 [Twitter](http://twitter.com/Crunchify) |
 [Facebook](http://www.facebook.com/iCrunch) |
-[Feedback](http://Crunchify.co/facebook-members/) |
+[Feedback](http://Crunchify.com/facebook-members/) |
 [Screenshots - Admin Panel and Preview](http://wordpress.org/extend/plugins/facebook-members/screenshots/)
 
 **New**
@@ -64,7 +64,7 @@ Tags: facebook, FB members, facebook plugin, like box, likebox, facebook like bo
 * Simply keep AppId field blank. 
 
 = Got a Question? =
-* Please report your questions or bugs at Plugin <a href="http://Crunchify.co/facebook-members/" target="_blank">Homepage</a>.
+* Please report your questions or bugs at Plugin <a href="http://Crunchify.com/facebook-members/" target="_blank">Homepage</a>.
 * NOTE: I've created this plugin as of my personal interest only. 
 
 == Screenshots ==
@@ -117,7 +117,7 @@ Tags: facebook, FB members, facebook plugin, like box, likebox, facebook like bo
 * AppId condition check added. If you are using other Recommendation Bar plugin and want to disable it, simply keep AppId field blank. 
 
 = 4.6 =
-* New Feature: Facebook Recommendation Bar Plugin. <a href="http://Crunchify.co/facebook-recommendation-bar-plugin-added-to-facebook-members-wordpress-plugin/" target="_blank">More Info</a>.
+* New Feature: Facebook Recommendation Bar Plugin. <a href="http://Crunchify.com/facebook-recommendation-bar-plugin-added-to-facebook-members-wordpress-plugin/" target="_blank">More Info</a>.
 
 = 4.5.3 =
-* Please visit <a href="http://Crunchify.co/facebook-members/" target="_blank">Plugin Homepage</a> for detailed changelog.
+* Please visit <a href="http://Crunchify.com/facebook-members/" target="_blank">Plugin Homepage</a> for detailed changelog.
