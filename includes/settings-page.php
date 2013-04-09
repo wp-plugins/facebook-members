@@ -28,7 +28,7 @@
                     }
                 }(document, "script", "twitter-wjs");</script>
 
-                <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FiCrunch&amp;width=292&amp;height=62&amp;show_faces=false&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false&amp;appId=519929141369894"
+                <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FCrunchify&amp;width=292&amp;height=62&amp;show_faces=false&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false&amp;appId=519929141369894"
                         scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:62px;"
                         allowTransparency="true"></iframe>
 
