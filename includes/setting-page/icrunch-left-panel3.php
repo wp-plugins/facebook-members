@@ -97,7 +97,7 @@
 
 <a href="http://Crunchify.com/facebook-members/" target="_blank">Feedback</a> | <a href="http://twitter.com/Crunchify"
                                                                                 target="_blank">Twitter</a> | <a
-        href="http://www.facebook.com/iCrunch" target="_blank">Facebook</a>
+        href="http://www.facebook.com/Crunchify" target="_blank">Facebook</a>
 
 <div class="submit">
     <input type="submit" name="info_update" class="button-primary" value="<?php _e('Update options'); ?> &raquo;"/>
