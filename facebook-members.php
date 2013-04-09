@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: Facebook Members
-Plugin URI: http://Crunchify.co/facebook-members/
+Plugin URI: http://Crunchify.com/facebook-members/
 Description: THE Simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functionality to WordPress with lot more Options.
 Version: 5.0.2
 Author: Crunchify
-Author URI: http://Crunchify.co
+Author URI: http://Crunchify.com
 */
 
 /*
-    Copyright (C) 2007- 2013 Crunchify.co
+    Copyright (C) 2007- 2013 Crunchify.com
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -53,7 +53,7 @@ add_option('as_facebook_mem_reco_appid', '');
 add_option('as_facebook_mem_reco_readtime', '5');
 add_option('as_facebook_mem_reco_verb', 'like');
 add_option('as_facebook_mem_reco_side', 'left');
-add_option('as_facebook_mem_reco_domain', 'http://Crunchify.co');
+add_option('as_facebook_mem_reco_domain', 'http://Crunchify.com');
 
 function filter_as_facebook_mem_likebox($content)
 {
@@ -69,7 +69,7 @@ function filter_as_facebook_mem_likebox($content)
     $fm_domain = get_option('as_facebook_mem_reco_domain');
 
     if (!($fm_appid == "")) {
-        $content .= "<!-- Facebook Members Plugin by Crunchify: http://Crunchify.co/facebook-members/ -->
+        $content .= "<!-- Facebook Members Plugin by Crunchify: http://Crunchify.com/facebook-members/ -->
 		<div class=\"fb-recommendations-bar\" data-href=\"" . get_permalink() . "\" data-read-time=\"" . $fm_readtime . "\" data-side=\"" . $options['side'] . "\" data-action=\"" . $fm_verb . "\"></div>";
     }
     return $content;
@@ -123,7 +123,7 @@ function as_facebook_mem_likebox()
     if ($show_sponser1 == 1) {
         $sponserlink_profile = "";
     } else {
-        $sponserlink_profile = '<div align="left">- <a href="http://Crunchify.co/facebook-members/" title="Facebook Members WordPress Plugin" target="_blank"> <font size="1">' . 'Facebook Members WordPress Plugin' . '</font></a></div>';
+        $sponserlink_profile = '<div align="left">- <a href="http://Crunchify.com/facebook-members/" title="Facebook Members WordPress Plugin" target="_blank"> <font size="1">' . 'Facebook Members WordPress Plugin' . '</font></a></div>';
     }
 
 
@@ -252,7 +252,7 @@ function show_as_facebook_mem_likebox_widget($args)
     if ($show_sponser1 == 1) {
         $sponserlink_profile = "";
     } else {
-        $sponserlink_profile = '<div align="left">- <a href="http://Crunchify.co/facebook-members/" title="Facebook Members WordPress Plugin" target="_blank"> <font size="1">' . 'Facebook Members WordPress Plugin' . '</font></a></div>';
+        $sponserlink_profile = '<div align="left">- <a href="http://Crunchify.com/facebook-members/" title="Facebook Members WordPress Plugin" target="_blank"> <font size="1">' . 'Facebook Members WordPress Plugin' . '</font></a></div>';
     }
 
     $T2 = '<div id="likebox-frame"><iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F' . $fm_widget_page_name . '&amp;width=' . $fm_widget_width . '&amp;height=' . $fm_widget_height . '&amp;colorscheme=light&amp;show_faces=' . $fm_widget_faces . '&amp;border_color&amp;stream=' . $fm_widget_stream . '&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:' . $fm_widget_width . 'px; height:' . $fm_widget_height . 'px; margin:-1px;" allowTransparency="true"></iframe></div>';
