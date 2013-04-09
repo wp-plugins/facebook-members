@@ -269,7 +269,7 @@ function as_facebook_mem_options_page() {
 			</div>
 			</div>
 			
-					<a href="http://icrunched.co/facebook-members/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunched" target="_blank">Twitter</a> | <a href="http://www.facebook.com/iCrunched" target="_blank">Facebook</a>
+					<a href="http://icrunched.co/facebook-members/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunched" target="_blank">Twitter</a> | <a href="http://www.facebook.com/Crunchify" target="_blank">Facebook</a>
 
    		 <div class="submit">
 	        <input type="submit" name="info_update" class="button-primary" value="<?php _e('Update options'); ?> &raquo;" />
@@ -349,7 +349,7 @@ function as_facebook_mem_options_page() {
 			</div>
 			</div>
 			
-					<a href="http://icrunched.co/facebook-members/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunched" target="_blank">Twitter</a> | <a href="http://www.facebook.com/iCrunched" target="_blank">Facebook</a>
+					<a href="http://icrunched.co/facebook-members/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunched" target="_blank">Twitter</a> | <a href="http://www.facebook.com/Crunchify" target="_blank">Facebook</a>
 
    		 <div class="submit">
 	        <input type="submit" name="info_update" class="button-primary" value="<?php _e('Update options'); ?> &raquo;" />
@@ -423,7 +423,7 @@ function as_facebook_mem_options_page() {
 					</div>
 		</div>
 		
-							<a href="http://icrunched.co/facebook-members/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunched" target="_blank">Twitter</a> | <a href="http://www.facebook.com/iCrunched" target="_blank">Facebook</a>
+							<a href="http://icrunched.co/facebook-members/" target="_blank">Feedback</a> | <a href="http://twitter.com/iCrunched" target="_blank">Twitter</a> | <a href="http://www.facebook.com/Crunchify" target="_blank">Facebook</a>
 
    		 <div class="submit">
 	        <input type="submit" name="info_update" class="button-primary" value="<?php _e('Update options'); ?> &raquo;" />
