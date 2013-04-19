@@ -3,7 +3,7 @@
 Plugin Name: Facebook Members
 Plugin URI: http://Crunchify.com/facebook-members/
 Description: THE Simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functionality to WordPress with lot more Options.
-Version: 5.0.4
+Version: 5.0.5
 Author: Crunchify
 Author URI: http://Crunchify.com
 */
@@ -154,7 +154,11 @@ function as_facebook_mem_options_page()
     $as_facebook_mem_widget_faces = $_POST['as_facebook_mem_widget_faces'];
 
     if (isset($_POST['info_update'])) {
-        update_option('as_facebook_mem_reco_appid', (string)$_POST["as_facebook_mem_reco_appid"]);
+    	
+    	if (!isset($_POST['my_fmz_update_setting'])) die("<br><br>Hmm .. looks like you didn't send any credentials.. No CSRF for you! ");
+    	if (!wp_verify_nonce($_POST['my_fmz_update_setting'],'fmz-update-setting')) die("<br><br>Hmm .. looks like you didn't send any credentials.. No CSRF for you!");
+        
+    	update_option('as_facebook_mem_reco_appid', (string)$_POST["as_facebook_mem_reco_appid"]);
         update_option('as_facebook_mem_reco_readtime', (string)$_POST["as_facebook_mem_reco_readtime"]);
         update_option('as_facebook_mem_reco_verb', (string)$_POST["as_facebook_mem_reco_verb"]);
         update_option('as_facebook_mem_reco_side', (string)$_POST["as_facebook_mem_reco_side"]);

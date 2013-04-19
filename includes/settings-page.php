@@ -10,6 +10,7 @@
         <form method="post" action="<?php echo $_SERVER["REQUEST_URI"]; ?>">
             <input type="hidden" name="info_update" id="info_update" value="true"/>
 
+            <?php wp_nonce_field('fmz-update-setting','fmz-update-setting'); ?>
 
             <u><h2>Facebook Members Like Box Plugin by Crunchify.com</h2></u>
 
