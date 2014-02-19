@@ -80,7 +80,7 @@ Tags: facebook, FB members, facebook plugin, like box, likebox, facebook like bo
 == Changelog == 
 
 = 5.1 = 
-* WordPress 3.8.1 compatibility
+* WordPress 3.8.1 compatibility.
 
 = 5.0.7 =
 * WordPress 3.6 compatibility
