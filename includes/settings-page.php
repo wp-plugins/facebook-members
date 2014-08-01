@@ -42,8 +42,8 @@
                     <br>
 
                     <?php
-                    require_once 'setting-page/icrunch-left-column.php';
-                    require_once 'setting-page/icrunch-right-column.php';
-                    require_once 'setting-page/icrunch-footer.php';
+                    require_once 'setting-page/crunchify-left-column.php';
+                    require_once 'setting-page/crunchify-right-column.php';
+                    require_once 'setting-page/crunchify-footer.php';
 
                     ?>

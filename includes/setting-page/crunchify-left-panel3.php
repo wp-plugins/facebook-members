@@ -35,13 +35,6 @@
                               rows="1"><?php echo get_option('as_facebook_mem_widget_height'); ?></textarea></td>
             </tr>
             <tr valign="top">
-                <th scope="row" style="width:29%;"><label># of Connection?</label></th>
-                <td><textarea id="styled" name="as_facebook_mem_widget_no_connection" cols="18"
-                              rows="1"><?php echo get_option('as_facebook_mem_widget_no_connection'); ?></textarea>
-                    &nbsp;<?=$fb_connection1?>
-                </td>
-            </tr>
-            <tr valign="top" class="alternate">
                 <th scope="row"><label>Show Stream?</label></th>
                 <td>
                     <input name="as_facebook_mem_widget_stream" type="radio"
@@ -54,7 +47,7 @@
                     &nbsp;<?=$fb_showstream1?>
                 </td>
             </tr>
-            <tr valign="top">
+            <tr valign="top" class="alternate">
                 <th scope="row"><label>Show Faces? <?=$new_icon?></label></th>
                 <td>
                     <input name="as_facebook_mem_widget_faces" type="radio"
@@ -67,22 +60,22 @@
 
                 </td>
             </tr>
-            <tr valign="top" class="alternate">
+            <tr valign="top">
                 <th scope="row"><label>Background Color <?=$new_icon?></label></th>
 
                 <td><textarea id="styled" name="as_facebook_mem_widget_color_scheme" cols="18"
                               rows="1"><?php echo get_option('as_facebook_mem_widget_color_scheme'); ?></textarea>
-                    <br>
+                    <br> Keep it blank for transparent background <br>
                     <a href="http://www.w3schools.com/html/html_colors.asp" target="_blank">Color Codes (Do not put
-                        #)</a></td>
-                </td>
+                        #)</a>
+                </td>     
             </tr>
-            <tr valign="top">
+            <tr valign="top" class="alternate">
                 <th scope="row" style="width:29%;"><label>Border Color <?=$new_icon?></label></th>
                 <td><textarea id="styled" name="as_facebook_mem_widget_border_color" cols="18"
                               rows="1"><?php echo get_option('as_facebook_mem_widget_border_color'); ?></textarea></td>
             </tr>
-            <tr valign="top" class="alternate">
+            <tr valign="top">
                 <th scope="row" style="width:29%;"><label>If you like, help promote a plugin</label></th>
                 <td>
                     <input name="as_fbmembers_show_sponser_link"

@@ -6,7 +6,7 @@
 ?>
 
 <div class="postbox">
-    <h3>Option Panel to include Likebox into your Post/Page</h3>
+    <h3>Option Panel to include Likebox into your Post/Page (<a href="http://wordpress.org/plugins/facebook-members/faq/" target="_blank">Code</a>) </h3>
 
     <div>
         <table class="form-table">
@@ -31,13 +31,6 @@
                 <th scope="row" style="width:29%;"><label>Like Box Height</label></th>
                 <td><textarea id="styled" name="as_facebook_mem_height" cols="18"
                               rows="1"><?php echo get_option('as_facebook_mem_height'); ?></textarea></td>
-            </tr>
-            <tr valign="top">
-                <th scope="row" style="width:29%;"><label># of Connection?</label></th>
-                <td><textarea id="styled" name="as_facebook_mem_no_connection" cols="18"
-                              rows="1"><?php echo get_option('as_facebook_mem_no_connection'); ?></textarea>
-                    &nbsp;<?=$fb_connection?>
-                </td>
             </tr>
             <tr valign="top">
                 <th scope="row"><label>Show Header?</label></th>
@@ -84,12 +77,12 @@
 
                 <td><textarea id="styled" name="as_facebook_mem_color_scheme" cols="18"
                               rows="1"><?php echo get_option('as_facebook_mem_color_scheme'); ?></textarea>
-                    <br>
+                    <br> Keep it blank for transparent background <br>
                     <a href="http://www.w3schools.com/html/html_colors.asp" target="_blank">Color Codes (Do not put
                         #)</a></td>
             </tr>
 
-            <tr valign="top" class="alternate">
+            <tr valign="top">
                 <th scope="row" style="width:29%;"><label>Border Color <?=$new_icon?></label></th>
                 <td><textarea id="styled" name="as_facebook_mem_broder_color" cols="18"
                               rows="1"><?php echo get_option('as_facebook_mem_broder_color'); ?></textarea></td>

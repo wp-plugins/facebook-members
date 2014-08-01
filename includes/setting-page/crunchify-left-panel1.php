@@ -46,7 +46,7 @@
                 <th scope="row"><label>Site Domain?</label></th>
                 <td><textarea id="styled" name="as_facebook_mem_reco_domain" cols="18"
                               rows="1"><?php echo get_option('as_facebook_mem_reco_domain'); ?></textarea> i.e.
-                    http://Crunchify.com
+                    http://crunchify.com
                 </td>
             </tr>
 
