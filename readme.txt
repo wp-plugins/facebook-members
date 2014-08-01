@@ -80,6 +80,7 @@ Tags: facebook, FB members, facebook plugin, like box, likebox, facebook like bo
 == Changelog == 
 
 = 5.5 =
+* <a href="http://crunchify.com/facebook-members/" target="_blank">All detailed info</a>
 * setting page - modified subpage names
 * removed number of connections options
 * fixed recommendation bar script
