@@ -16,10 +16,9 @@ line-height: 1 !important;
 font-size: smaller !important;
 }
 
-.postbox {
+.crunchify {
 border-left: 5px solid #dd7127 !important;
 border-radius: 3px !important;
-margin-top: 15px !important;
 } 
 
 .has-right-sidebar .inner-sidebar {

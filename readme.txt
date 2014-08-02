@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: Facebook, Facebook Like Box, Facebook Widget, Facebook Members, Social Media, Like box, Facebook, Plugin, Facebook Plugin, Facebook Recommendation bar, Recommendation, Crunchify, Crunchify.com
 Requires at least: 3.7
 Tested up to: 4.0 Beta2
-Stable tag: 5.5
+Stable tag: 5.5.1
 
 THE Simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functionality to WordPress with lot more Options. 
 
@@ -78,6 +78,9 @@ Tags: facebook, FB members, facebook plugin, like box, likebox, facebook like bo
 8. Facebook Likebox on theme's Page/Post template
 
 == Changelog == 
+
+= 5.5.1 =
+* Left 5px border issue fixed for class postbox
 
 = 5.5 =
 * <a href="http://crunchify.com/facebook-members/" target="_blank">All detailed info</a>
