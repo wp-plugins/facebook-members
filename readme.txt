@@ -79,7 +79,7 @@ Tags: facebook, FB members, facebook plugin, like box, likebox, facebook like bo
 
 == Changelog == 
 
-= 5.7. =
+= 5.7 =
 * Compatibility with WordPress 4.0
 * Now on <a href="https://github.com/Crunchify/Facebook-Members">Github</a>. Found a bug and want to contribute? Please fork repo and start enhancing plugin.
 
