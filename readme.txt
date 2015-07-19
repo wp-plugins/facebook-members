@@ -9,6 +9,9 @@ Stable tag: 5.9
 THE Simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functionality to WordPress with lot more Options. 
 
 == Description ==
+
+`NOTE`: Please use plugin [Facebook Page Likebox](https://wordpress.org/plugins/facebook-page-likebox) going forward. Facebook Members plugin is `deprecated`.
+
 Facebook Members is a WordPres Social Plugin that enables Facebook Page owners to attract and gain Likes from their own website. This is the simplest way to bring Facebook LikeBox + Facebook Recommendation Bar functionality to WordPress with many more Options like Background color, Border color.
 
 See how many users already like this page, and which of their friends like it too. Read recent posts from the page Like the page with one click, without needing to visit the page. Get more visitors and more traffic to your site by getting more Facebook Fans. The Recommendations Bar allows users to like content, get recommendations, and share what they are reading with their friends.
