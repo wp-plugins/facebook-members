@@ -6,15 +6,21 @@
 ?>
 <br>
 <div id="side-info-column" class="inner-sidebar">
-    <div class="postbox">
-        <h3 class="hndle"><span>All in One Webmaster</span></h3>
+	<div class="postbox">
+		<h3 class="hndle">
+			<span>Facebook Page Likebox</span>
+		</h3>
 
-        <div class="inside">
-            <ul>
-                <div align="center">
-<a href="http://crunchify.com/all-in-one-webmaster/"><img class="alignnone size-full wp-image-290 aligncenter" alt="All in One Webmaster WordPress Plugin" src="http://crunchify.com/wp-content/uploads/2013/07/All-in-One-Webmaster-Premium.jpg" width="181" height="81" /></a>
-</div>
-            </ul>
-        </div>
-    </div>
+		<div class="inside">
+			<ul>
+				<div align="left">
+					<b>NOTE:</b> v5.9 is the last update for Facebook Members plugin. <br> <br>Please
+					use plugin <a
+						href="https://wordpress.org/plugins/facebook-page-likebox">Facebook
+						Page Likebox</a> going forward. 
+				
+				</div>
+			</ul>
+		</div>
+	</div>
 </div>
